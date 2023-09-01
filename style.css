@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap");
 
 :root {
-  --primary-color: #EDB88B;
+  --primary-color: #eee;
   --secondary-color: #CD5334;
 }
 
@@ -31,7 +31,7 @@ header h1 {
 }
 
 .search {
-  background-color: transparent;
+  background-color: #eee;
   border: 2px solid var(--primary-color);
   border-radius: 50px;
   font-family: inherit;
@@ -41,11 +41,12 @@ header h1 {
 }
 
 .search::placeholder {
-  color: #eee;
+  color: black;
 }
 
 .search:focus {
   outline: none;
+  color: black;
   background-color: var(--primary-color);
 }
 
@@ -83,14 +84,14 @@ main {
 }
 
 .movie-info span {
-  background-color: var(--primary-color);
+  background-color: #eee;
   padding: 0.25rem 0.5rem;
   border-radius: 3px;
   font-weight: bold;
 }
 
 .movie-info span.green {
-  color: lightgreen;
+  color: #8CB369;
 }
 
 .movie-info span.orange {

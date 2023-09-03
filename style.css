@@ -22,10 +22,27 @@ header {
   align-items: center;
   background-color: var(--secondary-color);
 }
+.nav-logo{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 8px;
+  padding-right: 8px;
+
+}
+
+.logo{
+  background-image: url("movie_icon.png");
+  background-size: cover;
+  height: 50px;
+  width: 50px;
+  
+  
+}
 
 header h1 {
   color: #eee;
-  padding: 0;
+  padding-left: 20px;
   margin: 0;
   font-size: 1.5rem;
 }

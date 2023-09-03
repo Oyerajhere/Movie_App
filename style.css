@@ -2,7 +2,7 @@
 
 :root {
   --primary-color: #eee;
-  --secondary-color: #CD5334;
+  --secondary-color: #010B13;
 }
 
 * {
@@ -120,7 +120,7 @@ main {
 }
 
 .footer p {
-  color: #eee;
+  color: #010B13;
   text-align: center;
 }
 

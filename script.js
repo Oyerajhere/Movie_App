@@ -40,6 +40,7 @@ const showMovies = (movies) => {
 };
 
 const getMovies = async (url) => {
+  main.innerHTML= '<h3>🍿 Movie Meters Rolling . . .</h3>';
   const res = await fetch(url);
   const data = await res.json();
   showMovies(data.results);

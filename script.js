@@ -28,7 +28,7 @@ const showMovies = (movies) => {
     />
     <div class="movie-info">
       <h3>${title}</h3>
-      <span class="${getClassByRate(vote_average)}">${vote_average}</span>
+      <span class="${getClassByRate(vote_average)}">${vote_average.toFixed(2)}</span>
     </div>
     <div class="overview">
       <h3>Overview</h3>
